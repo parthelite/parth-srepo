@@ -50,3 +50,9 @@ button:hover {
     /* ... other styles ... */
     transition: left 0.5s ease-in-out, top 0.5s ease-in-out; /* Smooth transition */
 }
+#loveMessage {
+    display: none;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #e63946; /* Romantic red color for the message */
+    margin-top: 10px;
+}
