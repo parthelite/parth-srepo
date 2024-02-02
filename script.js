@@ -27,13 +27,17 @@ function changePosition() {
 function changeImage() {
     const image = document.getElementById('image');
     const loveMessage = document.getElementById('loveMessage');
+    const yesButton = document.getElementById('yesButton');
+    const notButton = document.getElementById('notButton');
 
     // Replace the image and show the "I love you" message
     image.src = 'sticker_17.jpg'; // Replace with the actual URL of the new image
     loveMessage.style.display = 'block';
 
-    // Optionally, you can hide the message after a few seconds
+    // Optionally, you can hide the buttons after a few seconds
     setTimeout(() => {
-        loveMessage.style.display = 'none';
-    }, 5000); // Hide the message after 5 seconds (adjust as needed)
+        yesButton.style.display = 'none';
+        notButton.style.display = 'none';
+        
+    }, 1000); // Hide the buttons and message after 5 seconds (adjust as needed)
 }
