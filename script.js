@@ -26,5 +26,5 @@ function changePosition() {
 
 function changeImage() {
     const image = document.getElementById('image');
-    image.src = 'url_of_another_image.jpg'; // Replace with the actual URL of the new image
+    image.src = 'sticker_17.jpg'; // Replace with the actual URL of the new image
 }
