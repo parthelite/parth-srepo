@@ -26,5 +26,14 @@ function changePosition() {
 
 function changeImage() {
     const image = document.getElementById('image');
+    const loveMessage = document.getElementById('loveMessage');
+
+    // Replace the image and show the "I love you" message
     image.src = 'sticker_17.jpg'; // Replace with the actual URL of the new image
+    loveMessage.style.display = 'block';
+
+    // Optionally, you can hide the message after a few seconds
+    setTimeout(() => {
+        loveMessage.style.display = 'none';
+    }, 5000); // Hide the message after 5 seconds (adjust as needed)
 }
